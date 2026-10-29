@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bozza di restyling Kamastra: cucina arbëreshe, storia e ospitalità a Civita. Una landing page dimostrativa.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#211c17">
+  <title>Kamastra — Cucina, cultura, ospitalità</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="homepage-logo" href="#home" aria-label="Kamastra, inizio pagina"><img src="assets/logo-kamastra.svg" alt="Kamastra — Gastronomia di Qualità" width="360" height="200"></a>
+  <main id="contenuto">
+
+    <!-- HERO: sostituire .hero-media con il video o la foto. Esempi nel README. -->
+    <section class="hero dark-section" id="home" aria-labelledby="hero-title">
+      <div class="hero-media" data-media-slot="hero" aria-hidden="true"></div>
+      <div class="hero-top"><p class="eyebrow">CIVITA · CALABRIA · DAL 1995</p><span class="media-note">01 / SPAZIO VIDEO O FOTO</span></div>
+      <div class="hero-content"><h1 class="hero-intro" id="hero-title">Cucina - Cultura - Tradizione</h1>
+        <div class="hero-links"><a href="#cucina">La Cucina</a><a href="#bevande">I Vini</a><a href="#visita">Scopri Civita</a></div>
+        <p class="hero-address">PIAZZA MUNICIPIO, 3/6 — CIVITA, CS — <a href="tel:+39098173387">0981 73387</a></p>
+      </div>
+      <a class="scroll-link" href="#storia"><span>LA NOSTRA STORIA</span><span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="section cuisine" id="cucina" aria-labelledby="cuisine-title">
+      <div class="section-heading reveal"><p class="eyebrow">01 / LA CUCINA</p><h2 id="cuisine-title" class="ruled-title">A TAVOLA</h2><p class="section-intro">I sapori di Civita, le radici arbëreshe.</p></div>
+      <div class="menu-grid">
+        <article class="menu-column reveal"><h3>PER INIZIARE</h3><div class="dish"><h4>ANTIPASTO KAMASTRA</h4><p>Salumi, formaggi, sottoli e frittelle della tradizione.</p></div><div class="dish"><h4>SAPORI DELL’ORTO</h4><p>Una selezione vegetariana tra verdure e formaggi.</p></div></article>
+        <article class="menu-column reveal"><h3>PASTA DI CASA</h3><div class="dish"><h4>CAVATELLI ALLA NENESA</h4><p>La pasta incontra un’erba della cucina locale.</p></div><div class="dish"><h4>MACCHERONI A FERRETTO</h4><p>Un gesto antico, un piatto che racconta il territorio.</p></div></article>
+        <article class="menu-column reveal"><h3>LA TRADIZIONE</h3><div class="dish"><h4>CAPRETTO ALLA CIVITESE</h4><p>Una delle specialità della tavola di Kamastra.</p></div><div class="dish"><h4>KRUSTUL ARBËRESH</h4><p>Un finale dolce che custodisce le origini.</p></div></article>
+      </div>
+      <p class="draft-note">Anteprima narrativa · piatti e disponibilità da confermare.</p>
+      <div class="center"><button class="button button-outline" type="button" data-open-menu>ESPLORA IL MENU <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <section class="interlude dark-section wine-film" aria-label="Il vino a tavola">
+      <video id="wine-video" autoplay muted loop playsinline preload="metadata" poster="assets/vino-poster.jpg" aria-label="Video del vino"><source src="assets/vino.mp4" type="video/mp4"></video>
+    </section>
+
+    <section class="section drinks" id="bevande" aria-labelledby="drinks-title">
+      <div class="section-heading reveal"><p class="eyebrow">02 / LA CANTINA</p><h2 id="drinks-title" class="ruled-title">I VINI</h2><p class="section-intro">Un altro modo di conoscere questa terra.</p></div>
+      <div class="drinks-layout"><div class="media-slot bottle-slot reveal" data-media-slot="cantina"><span class="slot-cross" aria-hidden="true">+</span><span>03 / VINI & PIRETTO</span><small>Spazio per fotografia verticale</small></div><div class="drinks-copy reveal"><article><p class="eyebrow">LA SELEZIONE</p><h3>VINI DI CALABRIA</h3><p>Un invito a scoprire la cantina e i vini che accompagnano la cucina di Kamastra.</p></article><article><p class="eyebrow">IL TERRITORIO NEL BICCHIERE</p><h3>IL PIRETTO</h3><p>Un agrume legato al territorio, una firma da raccontare attraverso i prodotti di Casa Kamastra.</p></article><a class="text-link" href="#visita">Lasciati consigliare a tavola <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section class="section gallery" id="galleria" aria-labelledby="gallery-title"><div class="section-heading reveal"><p class="eyebrow">03 / GLI SPAZI</p><h2 id="gallery-title">DENTRO KAMASTRA</h2><p class="section-intro">Archi, tavole e dettagli di ospitalità.</p></div>
+      <div class="gallery-grid"><figure class="reveal"><div class="media-slot gallery-main has-media" data-media-slot="sala"><img src="assets/kamastra-salainterna.jpg" alt="La sala interna di Kamastra con archi in mattoni e tavole apparecchiate" loading="lazy" decoding="async"></div><figcaption>01 — Il luogo dell’incontro</figcaption></figure><figure class="reveal"><div class="media-slot gallery-small has-media" data-media-slot="dettagli"><img src="assets/piatti-2.jpg" alt="Tagliere di salumi, formaggi e accompagnamenti" loading="lazy" decoding="async"></div><figcaption>02 — Le piccole cose</figcaption></figure><figure class="reveal"><div class="media-slot gallery-small has-media" data-media-slot="tavola"><img src="assets/piatti-4.jpg" alt="Piatti della tradizione serviti a tavola" loading="lazy" decoding="async"></div><figcaption>03 — Il piacere di fermarsi</figcaption></figure></div>
+    </section>
+
+    <section class="story" id="storia" aria-labelledby="story-title"><div class="chapter-banner dark-section"><p class="eyebrow">04 / LE RADICI</p><h2 id="story-title" class="reveal">LA NOSTRA STORIA</h2></div><div class="section story-layout"><h3 class="reveal">UNA TAVOLA.<br>DUE CULTURE.<br>UNA STORIA<br>DAL 1995.</h3><div class="story-copy reveal"><p>Kamastra nasce a Civita nel 1995, dall’intuizione di Enzo Filardi. Un luogo in cui la cucina diventa un incontro fra la terra calabrese e la tradizione arbëreshe.</p><p>Negli ambienti di una vecchia filanda, tra archi in mattoni e travi di legno, il ristorante custodisce il piacere di accogliere e condividere.</p><p>Il racconto continua nei piatti, nei gesti e nel legame con il Pollino.</p><a class="button button-outline" href="#visita">VIENI A TROVARCI <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="visit section" id="visita" aria-labelledby="visit-title"><div class="section-heading reveal"><p class="eyebrow">05 / IL TUO POSTO A TAVOLA</p><h2 id="visit-title" class="ruled-title">TI ASPETTIAMO</h2><p class="section-intro">A Civita, nel cuore del racconto.</p></div><div class="visit-layout"><div class="visit-info reveal"><h3>KAMASTRA</h3><address>Piazza Municipio, 3/6<br>87010 Civita (CS)</address><a class="contact-phone" href="tel:+39098173387">+39 0981 73387</a><a href="mailto:info@kamastra.net">info@kamastra.net</a><p class="hours-note">Per orari, disponibilità e prenotazioni,<br>contatta il ristorante.</p><a class="button button-solid" href="tel:+39098173387">CHIAMA PER PRENOTARE <span aria-hidden="true">↗</span></a></div><div class="location-panel reveal"><div class="media-slot location-slot has-media" data-media-slot="civita"><img src="assets/civita-panorama.jpg" alt="Panorama di Civita e delle montagne del Pollino" loading="lazy" decoding="async"></div><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Kamastra+Piazza+Municipio+Civita" target="_blank" rel="noopener noreferrer">Indicazioni stradali <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer dark-section"><div class="footer-top"><div><h2>CONTATTI</h2><p>Piazza Municipio, 3/6<br>Civita, Calabria</p><a href="mailto:info@kamastra.net">info@kamastra.net</a></div><a class="footer-brand" href="#home" aria-label="Kamastra, torna in alto"><img src="assets/logo-kamastra.svg" alt="Kamastra — Gastronomia di Qualità" width="360" height="200"></a><div class="footer-right"><h2>A TAVOLA CON NOI</h2><a href="tel:+39098173387">+39 0981 73387</a><a href="#visita">Prenota una visita ↗</a></div></div><div class="footer-bottom"><span>Proposta di restyling · Demo non ufficiale</span><button type="button" data-open-proposal>Informazioni sulla bozza</button><a href="#home">Torna in alto ↑</a></div></footer>
+  <dialog id="menu-dialog" aria-labelledby="menu-dialog-title"><div class="dialog-top"><span class="eyebrow">KAMASTRA / LA CUCINA</span><button type="button" class="close-dialog" aria-label="Chiudi menu">×</button></div><h2 id="menu-dialog-title">UN ASSAGGIO<br>DEL MENU</h2><p>Una selezione dei piatti raccontati dal ristorante. Il menu aggiornato, i prezzi e le informazioni sugli allergeni saranno inseriti dopo la conferma dei materiali.</p><div class="menu-preview"><div><h3>Per iniziare</h3><p>Antipasto Kamastra<br>Antipasto vegetariano</p></div><div><h3>Pasta di casa</h3><p>Cavatelli alla nenesa<br>Maccheroni a ferretto<br>Filatelli ai porcini</p></div><div><h3>Tradizione e dolci</h3><p>Capretto alla civitese<br>Krustul arbëresh</p></div></div><a class="button button-solid" href="tel:+39098173387">CHIEDI INFORMAZIONI ↗</a></dialog>
+  <dialog id="proposal-dialog" aria-labelledby="proposal-title"><div class="dialog-top"><span class="eyebrow">PROPOSTA DI RESTYLING</span><button type="button" class="close-dialog" aria-label="Chiudi progetto">×</button></div><h2 id="proposal-title">UNA NUOVA<br>PRIMA IMPRESSIONE.</h2><p>Questa è una bozza di struttura per Kamastra, ispirata all’impaginazione del template Juniper. Tutte le sezioni sono raccolte in un’unica landing page.</p><ul><li>Spazi predisposti per foto e video originali.</li><li>Menu, navigazione e contatti già interattivi.</li><li>Layout adattabile a desktop e smartphone.</li><li>Testi e selezione dei piatti da approvare.</li></ul><p class="draft-note">Demo non ufficiale. Nessun modulo raccoglie dati o invia prenotazioni. I collegamenti telefonici ed email aprono le applicazioni del dispositivo.</p></dialog>
+</body>
+</html>
